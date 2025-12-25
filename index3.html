@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahil Jayant | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Outfit:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="cursor"></div>
+    <div id="cursor-dot"></div>
+
+    <div class="bg-glow"></div>
+
+    <nav>
+      <div class="container nav-inner">
+        <div class="logo">Sahil<span>.dev</span></div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="container hero-content">
+        <h3>Hi, my name is</h3>
+        <h1 class="glitch-text" data-text="Sahil Jayant.">Sahil Jayant.</h1>
+        <div class="typewriter" id="typing-text"></div>
+        <p
+          style="
+            max-width: 500px;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+          "
+        >
+          I am a dedicated BCA student and Full Stack Developer specializing in
+          the MERN stack and Data Structures & Algorithms.
+        </p>
+        <div class="social-box">
+          <a href="https://github.com/SjayantT/" target="_blank" class="social-icon"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://linkedin.com/in/sahil-jayant/" target="_blank" class="social-icon"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="mailto:www.jayantsahil2054@gmail.com" class="social-icon"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="bio-text">
+            <p>
+              I am a final year student at
+              <strong>Babasaheb Bhimrao Ambedkar University, Lucknow</strong>.
+              My passion lies in solving complex problems using
+              <strong>Java (DSA)</strong> and building scalable web
+              applications.
+            </p>
+            <p>
+              I have experience creating responsive web apps, RESTful APIs, and
+              working on collaborative projects. I am currently seeking
+              opportunities to apply my skills in software engineering roles.
+            </p>
+            <p>
+              <i
+                class="fa-solid fa-location-dot"
+                style="color: var(--secondary)"
+              ></i>
+              Raebareli, UP, India
+            </p>
+          </div>
+
+          <div class="edu-card" data-tilt>
+            <h4>BCA - Honors</h4>
+            <span>Babasaheb Bhimrao Ambedkar University</span>
+            <p style="color: var(--text-muted); font-size: 0.9rem">
+              2023 - 2027
+            </p>
+            <div class="coursework">
+              <h5>Relevant Coursework:</h5>
+              <div class="course-tags">
+                <span>Data Structures</span>
+                <span>Algorithms</span>
+                <span>OOPs</span>
+                <span>Web Development</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">March 2025 - June 2025</span>
+            <h3 class="timeline-title">Web Development Intern</h3>
+            <span class="timeline-company">Labmentix Pvt Ltd (Remote)</span>
+            <ul class="timeline-desc">
+              <li>Gained hands-on experience on MERN Stack.</li>
+              <li>
+                Built RESTful APIs using Express.js and managed MongoDB
+                databases.
+              </li>
+              <li>
+                Collaborated on real-world projects to build responsive web
+                applications.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Some Things I've Built</h2>
+        <div class="projects-grid">
+          <div class="project-card" data-tilt>
+            <div class="project-top">
+              <i class="fa-regular fa-folder-open folder-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/SjayantT/BBAU-Attendance-System/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <!-- <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a> -->
+              </div>
+            </div>
+            <h3>BBAU Attendance System</h3>
+            <p>
+              A secure role-based system (Student/Faculty) to mark and edit
+              attendance. Features include attendance filtering and
+              <strong>PDF export</strong> capabilities.
+            </p>
+            <div class="tech-stack">
+              <span>MongoDB</span>
+              <span>Express</span>
+              <span>React</span>
+              <span>Node</span>
+            </div>
+          </div>
+
+          <div class="project-card" data-tilt>
+            <div class="project-top">
+              <i class="fa-regular fa-folder-open folder-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/SjayantT/StocksHub/" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>StocksHub</h3>
+            <p>
+              A trading platform inspired by Zerodha featuring real-time stock
+              data, order simulation, and a high-performance dashboard UI.
+            </p>
+            <div class="tech-stack">
+              <span>React.js</span>
+              <span>REST API</span>
+              <span>Auth</span>
+              <span>CSS</span>
+            </div>
+          </div>
+
+          <div class="project-card" data-tilt>
+            <div class="project-top">
+              <i class="fa-regular fa-folder-open folder-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/SjayantT/HavenSeek/" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>Havenseek</h3>
+            <p>
+              Real-estate platform with property listing, search filters, and
+              agent management. Implemented secure data storage for users.
+            </p>
+            <div class="tech-stack">
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>JS</span>
+              <span>HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <i class="devicon-java-plain colored"></i>
+            <p>Java</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-cplusplus-plain colored"></i>
+            <p>C++</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-javascript-plain colored"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-react-original colored"></i>
+            <p>React</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-nextjs-original colored"></i>
+            <p>Next.js</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-nodejs-plain colored"></i>
+            <p>Node.js</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-express-original"></i>
+            <p>Express</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-mongodb-plain colored"></i>
+            <p>MongoDB</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-mysql-plain colored"></i>
+            <p>MySQL</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-docker-plain colored"></i>
+            <p>Docker</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-kubernetes-plain colored"></i>
+            <p>K8s</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-git-plain colored"></i>
+            <p>Git</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-tailwindcss-original colored"></i>
+            <p>Tailwind</p>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-jest-plain colored"></i>
+            <p>Jest</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <div class="container">
+        <h2 class="section-title">Certifications & Achievements</h2>
+        <div class="cert-list">
+          <div class="cert-item">
+            <div>
+              <div class="cert-name">Code@BBAU3.0 Winner</div>
+              <div class="cert-issuer">
+                Babasaheb Bhimrao Ambedkar University (Apr 2025)
+              </div>
+            </div>
+            <i
+              class="fa-solid fa-trophy"
+              style="color: gold; font-size: 1.5rem"
+            ></i>
+          </div>
+          <div class="cert-item">
+            <div>
+              <div class="cert-name">Delta Full-Stack Development Course</div>
+              <div class="cert-issuer">Apna College</div>
+            </div>
+            <i
+              class="fa-solid fa-certificate"
+              style="color: var(--secondary); font-size: 1.5rem"
+            ></i>
+          </div>
+          <div class="cert-item">
+            <div>
+              <div class="cert-name">Webmania 2.0 Participant</div>
+              <div class="cert-issuer">
+                Babasaheb Bhimrao Ambedkar University (Apr 2024)
+              </div>
+            </div>
+            <i
+              class="fa-solid fa-medal"
+              style="color: silver; font-size: 1.5rem"
+            ></i>
+          </div>
+          <div class="cert-item">
+            <div>
+              <div class="cert-name">Code@BBAU2.0 Participant</div>
+              <div class="cert-issuer">
+                Babasaheb Bhimrao Ambedkar University (Nov 2023)
+              </div>
+            </div>
+            <i
+              class="fa-solid fa-medal"
+              style="color: #cd7f32; font-size: 1.5rem"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container contact-content">
+        <p style="color: var(--secondary); font-family: monospace">
+          06. What's Next?
+        </p>
+        <h2 style="font-size: 3rem; margin: 10px 0">Get In Touch</h2>
+        <p style="color: var(--text-muted); font-size: 1.1rem">
+          I am currently looking for new opportunities. Whether you have a
+          question or just want to say hi, my inbox is always open!
+        </p>
+        <p style="margin-top: 20px; color: var(--text-main)">+91 9026599948</p>
+        <a href="mailto:jayantsahil2054@gmail.com" class="contact-btn"
+          >Say Hello</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <p>Designed & Built by Sahil Jayant.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
